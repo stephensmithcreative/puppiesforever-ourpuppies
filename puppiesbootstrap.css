@@ -26,7 +26,7 @@ a {
     color:#fff;
 }
 .active a {
-    background-color:#44C4F2 !important;
+    background-color:transparent!important;
     color:#196b86 !important;
 }
 
@@ -36,7 +36,7 @@ a {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color:#fff!important;
+    color:#fff!;
     font-family: oswald, helvetica, arial, sans-serif;
     font-weight: 900;
     font-size:15px;
@@ -46,6 +46,11 @@ a {
 .navbar-inverse .navbar-nav>li>a:hover {
         color:#196b86!important;
         transition:.3s;
+}
+
+.navbar-collapse {
+    border-top:none;
+    background-color: #44C4F2
 }
 
 
@@ -221,5 +226,14 @@ img {
     font-size: 17px;
     color: #196b86;
     font-weight:100;
+}
+
+.navbar-toggle {
+    background-color:#fff !important;
+    border-color: transparent !important;
+}
+
+.icon-bar {
+    background-color: #44C4F2 !important ;
 }
 
